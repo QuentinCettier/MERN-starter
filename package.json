@@ -1,0 +1,28 @@
+{
+  "name": "mern_starter",
+  "version": "1.0.0",
+  "description": "MERN stack starter",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cettier Quentin",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "eslint-config": "^0.3.0",
+    "eslint-config-react-app": "^3.0.8",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
